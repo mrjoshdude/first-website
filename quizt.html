@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en-gb">
+<head>
+<title>CodeUp Home Page</title>
+<link rel="icon" type="image/png" href="">
+<link rel="stylesheet" href="">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="home page for codeup, a coding support group">
+<meta name="keywords" content="coding, group, learn to code, support">
+<script src="scriptt.js"></script>
+</head>    
+<body>
+    <header class="header">
+        <h3 id="tagline">Free and Friendly Adult Coding Tuition</h3>
+    </header>
+    <nav class="nav">
+        <ul>
+            <li><a href="contact.html">Contact</a></li>  
+            <li><a href="quiz.html">Quiz</a></li>  
+            <li><a href="gallery.html">Image Gallery</a></li> 
+            <li><a href="index.html">Home Page</a></li>
+        </ul>
+    </nav>
+    <main class="grid-container">
+        <section class="quiz">
+            <form name="quiz">
+            <fieldset>
+                <legend>What is your favourite colour?</legend>
+                <input type="radio" name="colour" id="red" value="red">
+                <label for="red">Red</label>
+                <input type="radio" name="colour" id="yellow" value="yellow">
+                <label for="yellow">Yellow</label>
+                <input type="radio" name="colour" id="blue" value="blue">
+                <label for="blue">Blue</label>
+                <input type="radio" name="colour" id="green" value="green">
+                <label for="green">Green</label>
+            </fieldset>
+            <fieldset>
+                <legend>What is your favourite animal?</legend>
+                <input type="radio" name="animal" id="lion" value="lion">
+                <label for="lion">Lion</label>
+                <input type="radio" name="animal" id="badger" value="badger">
+                <label for="badger">Badger</label>
+                <input type="radio" name="animal" id="raven" value="raven">
+                <label for="raven">Raven</label>
+                <input type="radio" name="animal" id="snake" value="snake">
+                <label for="snake">Snake</label>
+            </fieldset>
+            <fieldset>
+                <legend>How do you deal with an upcoming test?</legend>
+                <input type="radio" name="test" id="try" value="try">
+                <label for="try">Try your best!</label>
+                <input type="radio" name="test" id="friend" value="friend">
+                <label for="friend">Ask a friend for help!</label>
+                <input type="radio" name="test" id="study" value="study">
+                <label for="study">Study hard!</label>
+                <input type="radio" name="test" id="cheat" value="cheat">
+                <label for="cheat">Cheat!</label>
+            </fieldset>
+            <fieldset>
+                <legend>What is your favourite thing to do in your spare time?</legend>
+                <input type="radio" name="hobby" id="quidditch" value="quidditch">
+                <label for="quidditch">Quidditch</label>
+                <input type="radio" name="hobby" id="flowers" value="flowers">
+                <label for="flowers">Pick Flowers</label>
+                <input type="radio" name="hobby" id="read" value="read">
+                <label for="read">Read</label>
+                <input type="radio" name="hobby" id="steal" value="steal">
+                <label for="steal">Steal Things</label>
+            </fieldset>
+            <br>
+            <button type="button" onclick="checkAnswers()">Submit</button>
+        </form>
+        </section>
+        <aside class="sidebar">
+            <p>Links to online learning resources</p>
+                <a href="https://www.freecodecamp.org/" target="_blank">freeCodeCamp</a>
+                <br>
+                <a href="https://www.codecademy.com/student-center">Codecademy</a>
+            
+        </aside>
+    </main>
+    <footer>
+        <p>Copyright CodeUpUK 2023</p>
+    </footer>
+</div>
+</body>
+</html>
