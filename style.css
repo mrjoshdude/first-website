@@ -18,7 +18,7 @@ header {
 }
 
 .header {
-    display: flex;
+
     align-items: center;
     justify-content: space-between;
     max-width: 1200px;
@@ -27,6 +27,7 @@ header {
 
 .logo {
     border-radius: 20px;
+
 }
 
 .title {
@@ -94,7 +95,24 @@ main {
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
-  
+
+.grid-img {
+    grid-column: 1 / span 1;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-top: 20px;
+}
+
+.grid-section2 {
+    grid-column: 2 / span 2;
+    background-color: #d8d8e8;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
 .grid-section img {
     width: 100%;
     height: auto;
@@ -109,39 +127,6 @@ main {
 }
   
 .grid-section a:hover {
-    text-decoration: underline;
-}
-
-.sidebar {
-    background-color: #124E91;
-    color: #fff;
-    padding: 20px;
-    position:absolute;
-    width: 250px;
-    right: 20px;
-    top: 10px;
-    border-radius: 8px;
-}
-  
-.sidebar h3 {
-    font-size: 1.5rem;
-    margin-bottom: 15px;
-}
-  
-.sidebar ul {
-    list-style: none;
-}
-  
-.sidebar ul li {
-    margin: 10px 0;
-}
-  
-.sidebar a {
-    color: #fff;
-    text-decoration: none;
-}
-  
-.sidebar a:hover {
     text-decoration: underline;
 }
 
