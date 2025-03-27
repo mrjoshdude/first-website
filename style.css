@@ -159,3 +159,19 @@ footer {
 footer p {
     font-size: 1rem;
 }
+
+h1, h2 {
+    text-align: center;
+}
+
+form {
+    border-style: solid;
+    padding: 20px;
+    background-color:cadetblue;
+    color: black;
+}
+
+.quizgnome {
+    float: right;
+    width: 200px;
+}

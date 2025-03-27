@@ -1,3 +1,9 @@
+/*let gnomelocation = Math.floor(Math.random() * 4) + 1;
+
+function gnomecorner() {
+
+}*/
+
 document.addEventListener("DOMContentLoaded", function () {
     const image = document.getElementById('hiddenImage');
     const sound = document.getElementById('hoverSound');
