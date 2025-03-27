@@ -171,7 +171,13 @@ form {
     color: black;
 }
 
-.quizgnome {
+#quizgnome {
     float: right;
     width: 200px;
+    cursor: pointer;
+    transition: transform 0.3s;
+}
+
+#clickableImage:hover {
+    transform: scale(1.05);
 }
