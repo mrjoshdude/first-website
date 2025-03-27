@@ -300,9 +300,9 @@ Your JavaScript is functional, but there are a few areas where you can reduce re
 
 ## Actions
 ### HTML
-- [] change gb to GB in the lang bit
+- [X] change gb to GB in the lang bit
 - [] add an author tag
-- [] chatgpt doesn't like my title, chatgpt can do one
+- [X] chatgpt doesn't like my title, chatgpt can do one
 - [] use a .ico rather than a .png for my favicon
 - [] add alt text to the images
 - [] add aria-label to some sections (what does this do???)
@@ -312,7 +312,7 @@ Your JavaScript is functional, but there are a few areas where you can reduce re
 
 ### CSS
 - [] define the main colours I use into variables so it's easier to update across the entire stylesheet
-- [] chatgpt thinks my font isn't "modern" enough (bleh) 
+- [X] chatgpt thinks my font isn't "modern" enough (bleh) 
 - [] doesn't like me using a background image and a background colour on the header. Apparently these can conflict if the image doesn't load. Well, like, what if the whole website doesn't load. What then chatgpt?
 - [] use background-size: cover to make sure the image in the header fully covers the header area. I think it will just look stretched out but I guess I'll have a look
 - [] add display:flex to the .header class
