@@ -20,11 +20,9 @@ function checkAnswers() {
     alert(`Well done! Your score was ${score}`);
 }
 
-document.addEventListener("DOMContentLoaded", function () {
     const image = document.getElementById("quizgnome");
     const audio = document.getElementById("gnomewoo");
 
     image.addEventListener("click", function () {
         audio.play();
     });
-});
