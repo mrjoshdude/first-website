@@ -301,14 +301,14 @@ Your JavaScript is functional, but there are a few areas where you can reduce re
 ## Actions
 ### HTML
 - [X] change gb to GB in the lang bit
-- [] add an author tag
+- [X] add an author tag
 - [X] chatgpt doesn't like my title, chatgpt can do one
-- [] use a .ico rather than a .png for my favicon
-- [] add alt text to the images
-- [] add aria-label to some sections (what does this do???)
-- [] use a button rather than regular links for the find out more bits
-- [] add links to privacy policy or terms of service
-- [] make sure headings reflect a proper hierarchy
+- [/] use a .ico rather than a .png for my favicon [Decided against this one]
+- [X] add alt text to the images
+- [/] add aria-label to some sections (what does this do???) [no point, just does what semantic tags do]
+- [/] use a button rather than regular links for the find out more bits [buttons don't fit the vibe]
+- [/] add links to privacy policy or terms of service [I have no terms of service, I think the footer looks fine]
+- [/] make sure headings reflect a proper hierarchy [I'm happy with my heading usage]
 
 ### CSS
 - [] define the main colours I use into variables so it's easier to update across the entire stylesheet
