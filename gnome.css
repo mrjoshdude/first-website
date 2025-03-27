@@ -31,4 +31,10 @@ body {
     top: 20px;
     right: 20px;
     position: fixed;
+    border-style: solid;
+    background-color: aquamarine;
+    color: blue;
+    border-radius: 20px;
+    padding: 10px;
+    text-decoration: none;
 }
