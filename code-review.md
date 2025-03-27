@@ -302,7 +302,7 @@ Your JavaScript is functional, but there are a few areas where you can reduce re
 ### HTML
 - [X] change gb to GB in the lang bit
 - [X] add an author tag
-- [X] chatgpt doesn't like my title, chatgpt can do one
+- [/] chatgpt doesn't like my title, chatgpt can do one [I ignored this, because it was stupid]
 - [/] use a .ico rather than a .png for my favicon [Decided against this one]
 - [X] add alt text to the images
 - [/] add aria-label to some sections (what does this do???) [no point, just does what semantic tags do]
@@ -311,9 +311,9 @@ Your JavaScript is functional, but there are a few areas where you can reduce re
 - [/] make sure headings reflect a proper hierarchy [I'm happy with my heading usage]
 
 ### CSS
-- [] define the main colours I use into variables so it's easier to update across the entire stylesheet
+- [/] define the main colours I use into variables so it's easier to update across the entire stylesheet [I did look at this, but I think for what I've got, it just isn't worth it. If I had a bigger website with more stuff then maybe. But I only really use my colours like 3 or 4 times and the tech to set variables in css looks scary]
 - [X] chatgpt thinks my font isn't "modern" enough (bleh) 
-- [] doesn't like me using a background image and a background colour on the header. Apparently these can conflict if the image doesn't load. Well, like, what if the whole website doesn't load. What then chatgpt?
+- [/] doesn't like me using a background image and a background colour on the header. Apparently these can conflict if the image doesn't load. Well, like, what if the whole website doesn't load. What then chatgpt?
 - [] use background-size: cover to make sure the image in the header fully covers the header area. I think it will just look stretched out but I guess I'll have a look
 - [] add display:flex to the .header class
 - [] make sure the logo image size is controlled, otherwise it could stretch if the image isn't resized appropriately
