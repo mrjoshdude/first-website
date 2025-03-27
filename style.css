@@ -60,6 +60,8 @@ nav a:hover {
   
 nav .dropdown:hover .dropdown-list {
     display: block;
+    opacity: 1;
+    transform: translateY(0);
 }
   
 .dropdown-list {
@@ -68,6 +70,11 @@ nav .dropdown:hover .dropdown-list {
     background-color: #fff;
     min-width: 160px;
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    padding: 10px 0;
+    border-radius: 4px;
+    opacity: 0;
+    transition: opacity 0.3s ease, transform 0.3s ease;
+    transform: translateY(-20px);
 }
   
 .dropdown-list li {
@@ -77,6 +84,10 @@ nav .dropdown:hover .dropdown-list {
 .dropdown-list a {
     color: #124E91;
 }
+
+.dropdown-menu li a:hover {
+    background-color: #f1f1f1;
+  }
 
 main {
     padding: 40px 20px;
@@ -136,6 +147,7 @@ main {
     height: auto;
     border-radius: 8px;
     margin-top: 20px;
+    object-fit: cover;
 }
   
 .grid-section a {

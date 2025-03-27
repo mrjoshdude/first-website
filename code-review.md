@@ -317,12 +317,12 @@ Your JavaScript is functional, but there are a few areas where you can reduce re
 - [/] use background-size: cover to make sure the image in the header fully covers the header area. I think it will just look stretched out but I guess I'll have a look [I tried what it suggested and it did literally nothing, I don't think it would've looked good anyway, so there]
 - [/] add display:flex to the .header class [I did it and it broke something, so nice one chatgpt, you useless frog]
 - [/] make sure the logo image size is controlled, otherwise it could stretch if the image isn't resized appropriately [so i tried this and it didn't do anything, I don't really know specifically what it wanted from me anyway]
-- [X] add align-items: center to vertically center the nav items (what if i don't want to though??)
-- [] add a transition to the dropdown menu to make the menu appear smoother
+- [X] add align-items: center to vertically center the nav items (what if i don't want to though??) [I did it, didn't change anything but I did it]
+- [X] add a transition to the dropdown menu to make the menu appear smoother [I did it and to be honest I'm not sure I can see any difference]
 - [] use a media query to make the page look better on smaller screens (i was like, totally gonna do that already chatgpt. Jeez!)
-- [] doesn't like the background colour on the grid sections because it's too light. I will review
-- [] add object-fit: cover to ensure images fill their containers without stretching
-- [] add padding to the footer
+- [/] doesn't like the background colour on the grid sections because it's too light. I will review [I did indeed review, and found chatgpt to be sniffing it's own bottom]
+- [X] add object-fit: cover to ensure images fill their containers without stretching [once again, I did this and it did nothing. Why are you doing this chatgpt? Anyway I left it there because it's doing no harm and maybe it's secretly important somehow in a way that is not visible]
+- [/] add padding to the footer [there is padding in the footer!!]
 - [] chatgpt doesn't like my styling of the form, this is fair because I literally just started styling the form before this and haven't actually done much of anything with it yet. Low hanging fruit chatgpt!
 - [] wants me to use flexbox or position: absolute for shoving the gnome on the right side of the quiz page
 
