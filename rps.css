@@ -26,6 +26,15 @@ h2 {
     padding: 7px;
 }
 
+h3 {
+    border-style: solid;
+    background-color: aquamarine;
+    color: blue;
+    border-radius: 20px;
+    text-decoration: none;
+    padding: 10px;
+}
+
 label {
     font-size: 16pt;
     border-style: solid;

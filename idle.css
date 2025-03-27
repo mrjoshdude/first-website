@@ -37,4 +37,6 @@ h3 {
     top: 20px;
     right: 20px;
     position: fixed;
+    text-decoration: none;
+    padding: 10px;
 }
