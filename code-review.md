@@ -300,11 +300,11 @@ Your JavaScript is functional, but there are a few areas where you can reduce re
 
 ## Actions
 ### HTML
-- [X] change gb to GB in the lang bit
-- [X] add an author tag
+- [X] change gb to GB in the lang bit [did it]
+- [X] add an author tag [seems pointless personally, but I did it]
 - [/] chatgpt doesn't like my title, chatgpt can do one [I ignored this, because it was stupid]
 - [/] use a .ico rather than a .png for my favicon [Decided against this one]
-- [X] add alt text to the images
+- [X] add alt text to the images [maybe the only useful suggestion from chatgpt, it is now done]
 - [/] add aria-label to some sections (what does this do???) [no point, just does what semantic tags do]
 - [/] use a button rather than regular links for the find out more bits [buttons don't fit the vibe]
 - [/] add links to privacy policy or terms of service [I have no terms of service, I think the footer looks fine]
@@ -312,7 +312,7 @@ Your JavaScript is functional, but there are a few areas where you can reduce re
 
 ### CSS
 - [/] define the main colours I use into variables so it's easier to update across the entire stylesheet [I did look at this, but I think for what I've got, it just isn't worth it. If I had a bigger website with more stuff then maybe. But I only really use my colours like 3 or 4 times and the tech to set variables in css looks scary]
-- [X] chatgpt thinks my font isn't "modern" enough (bleh) 
+- [/] chatgpt thinks my font isn't "modern" enough (bleh) [I ignored chatgpt, because it is wrong]
 - [/] doesn't like me using a background image and a background colour on the header. Apparently these can conflict if the image doesn't load. Well, like, what if the whole website doesn't load. What then chatgpt?
 - [/] use background-size: cover to make sure the image in the header fully covers the header area. I think it will just look stretched out but I guess I'll have a look [I tried what it suggested and it did literally nothing, I don't think it would've looked good anyway, so there]
 - [/] add display:flex to the .header class [I did it and it broke something, so nice one chatgpt, you useless frog]
