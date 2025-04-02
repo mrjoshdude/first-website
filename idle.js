@@ -27,7 +27,12 @@ upgradeButton.addEventListener('click', () => {
         upgradeCost = Math.floor(upgradeCost * 1.5);
         updateScore();
         updateUpgrade();
-        upgradeButton.setAttribute('disabled', '');
+        if (score < upgradeCost) {
+            upgradeButton.setAttribute('disabled', '');
+        }
+        else {
+            upgradeButton.removeAttribute('disabled', '')
+        }
     }
 });
 
