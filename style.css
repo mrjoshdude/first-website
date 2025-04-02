@@ -63,7 +63,7 @@ nav .dropdown:hover .dropdown-list {
     opacity: 1;
     transform: translateY(0);
 }
-  
+
 .dropdown-list {
     display: none;
     position: absolute;
