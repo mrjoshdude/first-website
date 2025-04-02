@@ -20,13 +20,6 @@ function checkAnswers() {
     alert(`Well done! Your score was ${score}`);
 }
 
-    const image = document.getElementById("quizgnome");
-    const audio = document.getElementById("gnomewoo");
-
-    image.addEventListener("click", function () {
-        audio.play();
-    });
-
 function woo() {
     const sound1 = document.getElementById('gnomeWoo1');
     const sound2 = document.getElementById('gnomeWoo2');
