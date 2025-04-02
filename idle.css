@@ -5,7 +5,8 @@ body {
     align-items: center;
     height: 100vh;
     margin: 0;
-    background-color: #f0f0f0;
+    background-image: url("images/spooky.gif");
+    background-repeat: repeat;
 }
 
 .game-container {
@@ -13,7 +14,8 @@ body {
     padding: 20px;
     border: 2px solid #333;
     border-radius: 10px;
-    background-color: white;
+    background-image: url("images/clouds.png");
+    background-repeat: repeat;
 }
 
 button {
