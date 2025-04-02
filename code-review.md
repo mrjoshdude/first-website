@@ -330,6 +330,6 @@ Your JavaScript is functional, but there are a few areas where you can reduce re
 - [] combine the five rps functions (rock, paper, scissors, lizard, and spock) into one generalized function by "passing yourPick as an argument" whatever that means. I'll have a look, this does sound like a good idea, I just need to get my head round it
 - [] use a more dynamic approach to accessing form values, like storing them in an object or using "querySelector" if the form structure changes
 - [] disable the buy upgrade button if the user doesn't have the points to buy an upgrade. I disagree personally, chatgpt can eat slugs
-- [] maybe add something visual that says when the button can or can't be clicked
+- [X] maybe add something visual that says when the button can or can't be clicked [took ages but I did it]
 - [] i have global variables like score and clickValue being used in different places (apparently??). I should consider using const or let for more specific scoping if they are only needed in certain functions (I thought I already did this???)
 - [] consider using event delegation for the click and hover events. Helps avoid potential issues if elements are added dynamically after the initial page load

@@ -11,6 +11,12 @@ const upgradeLevelDisplay = document.getElementById('upgradeLevel');
 clickButton.addEventListener('click', () => {
     score += clickValue;
     updateScore();
+    if (score < upgradeCost) {
+        upgradeButton.setAttribute('disabled', '');
+    }
+    else {
+        upgradeButton.removeAttribute('disabled', '')
+    }
 });
 
 upgradeButton.addEventListener('click', () => {
@@ -21,6 +27,7 @@ upgradeButton.addEventListener('click', () => {
         upgradeCost = Math.floor(upgradeCost * 1.5);
         updateScore();
         updateUpgrade();
+        upgradeButton.setAttribute('disabled', '');
     }
 });
 
