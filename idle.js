@@ -32,3 +32,8 @@ function updateUpgrade() {
     upgradeLevelDisplay.textContent = upgradeLevel;
     upgradeButton.textContent = `Buy Upgrade (Cost: ${upgradeCost})`;
 }
+
+function woo() {
+    const sound = document.getElementById('gnomeWoo');
+    sound.play()
+}

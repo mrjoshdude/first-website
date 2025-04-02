@@ -24,7 +24,7 @@ button {
     margin: 10px;
 }
 
-button:active {
+#clickButton:active {
     transform: scale(0.95);
 }
 
