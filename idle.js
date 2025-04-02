@@ -15,7 +15,7 @@ clickButton.addEventListener('click', () => {
         upgradeButton.setAttribute('disabled', '');
     }
     else {
-        upgradeButton.removeAttribute('disabled', '')
+        upgradeButton.removeAttribute('disabled', '');
     }
 });
 
@@ -31,7 +31,7 @@ upgradeButton.addEventListener('click', () => {
             upgradeButton.setAttribute('disabled', '');
         }
         else {
-            upgradeButton.removeAttribute('disabled', '')
+            upgradeButton.removeAttribute('disabled', '');
         }
     }
 });
