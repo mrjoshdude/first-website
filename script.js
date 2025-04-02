@@ -26,3 +26,8 @@ function checkAnswers() {
     image.addEventListener("click", function () {
         audio.play();
     });
+
+function woo() {
+    const sound = document.getElementById('gnomeWoo');
+    sound.play()
+}
