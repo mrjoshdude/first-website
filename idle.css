@@ -24,6 +24,10 @@ button {
     margin: 10px;
 }
 
+#clickButton {
+    width: 300px;
+}
+
 #clickButton:active {
     transform: scale(0.95);
 }
